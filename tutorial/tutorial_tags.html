@@ -1,15 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8">
-    <meta name="description" content="biografia de um estudante">
-    <meta name="author" content="Matheus Hubner IFES">
-    <meta name="keywords" content="biografia, rotina, estudante">
-    <head>
-        <title>Página Pessoal</title>
-    </head>
-    <body>
-        <h1 style= "background-color:aliceblue; color:black; font-family: caveat, cursive;">Em Construção</h1>
-        <div style= "color:rgb(2, 1, 1); font-family: courier"> <a href="../index.html"> Volte para a Página Pessoal </a> </div>
-    </body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Mini Tutorial">
+  <meta name="author" content="Matheus Hubner Rodrigues IFES Serra">
+  <meta name="keywords" content="tutorial, tags, estruturais">
 
+  <title>Mini Tutorial HTML</title>
+</head>
+<body>
+
+  <h1 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Mini Tutorial HTML - Matheus Hubner Rodrigues</h1>
+
+  <h2> Tags Estruturais</h2>
+  
+  <p> 1- <strong><code>&ltb&gt</code></strong>  - Essa tag deixa o texto em <b>Negrito</b>.<br> 
+    
+    Exemplo do uso da tag: <code>&ltp&gt</code> Esta frase esta em <code>&ltb&gt</code> <b>Negrito</b> <code>&lt/b&gt</code> <code>&lt/p&gt</code>  </p>
+    
+
+    <p> 2- <strong><code>&lti&gt</code></strong>  - Essa tag deixa o texto em <i>Italico</i>. <br>
+    
+        Exemplo do uso da tag: <code>&ltp&gt</code> Esta frase esta em <code>&lti&gt</code> <i>Italico</i> <code>&lt/i&gt</code> <code>&lt/p&gt</code>  </p>
+
+
+        <p> 3- <strong><code>&ltu&gt</code></strong>  - Essa tag <u>sublinha</u> o texto. <br>
+    
+            Exemplo do uso da tag: <code>&ltp&gt</code> Esta frase esta <code>&ltu&gt</code> <u>Sublinhada</u> <code>&lt/u&gt</code> <code>&lt/p&gt</code>  </p>
+
+
+            <p> 4- <strong><code>&ltbr&gt</code></strong>  - Essa tag quebra a linha. <br>
+    
+                Exemplo do uso da tag: <code>&ltp&gt</code> Esta frase esta <code>&ltbr&gt</code> <br>Quebrada <code>&lt/p&gt</code>  </p>
+
+
+                <p> 5- <strong><code>&ltspan&gt</code></strong>  - Essa tag é usada para aplicar estilo em um trexo especifico, como alterar a <span style="color: rgb(22, 151, 76);"> cor </span> de uma unica palavra </span>  <br> 
+    
+                    Exemplo do uso da tag: <code>&ltp&gt</code> Esta frase vai ter uma palavra com a  <code>&ltspan style = "color: vermelho;" &gt </code> <span style="color: rgb(109, 41, 173);"> cor Roxa </span> <code>&lt/span&gt</code> <code>&lt/p&gt</code>  </p>
+    
+                <p> 6- <strong><code>&lthr&gt</code></strong>  - Essa tag cria uma linha Horizontal para separar as seções. <br> 
+    
+                    Exemplo do uso da tag: <code>&ltp&gt</code> Após esta frase uma linha Horizontal vai separar as Tags Estruturais das Tags Semanticas <code>&lthr&gt</code> <code>&lt/p&gt</code> <hr>  </p>
+    
+
+  
+  <h2> Tags Semânticas</h2>
+
+  <p> 1- <code>&ltstrong&gt</code>  - Essa tag auxilia os leitores dando <strong>Ênfase</strong> com semântica de importancia.<br> 
+    
+    Exemplo do uso da tag: <code>&ltp&gt</code> Podemos modificar essa frase <code>&ltstrong&gt</code> <strong>dando ênfase nessa parte  para auxiliar na leitura</strong> <code>&lt/strong&gt</code> <code>&lt/p&gt</code>  </p>
+
+
+  <p> 2- <code>&ltem&gt</code>  - Essa tag auxilia os leitores dando <em>Ênfase</em> leve como uma semântica de entonação.<br> 
+    
+    Exemplo do uso da tag:<code>&ltp&gt</code> Podemos modificar essa frase <code>&ltem&gt</code> <em>dando ênfase nessa parte  para auxiliar na leitura</em> <code>&lt/em&gt</code> <code>&lt/p&gt</code>  </p>
+
+  <p> 3- <code>&ltblockquot&gt</code>  - Essa tag indica uma citação longa como um paragrafo. <br> 
+    
+    Exemplo do uso da tag:<code>&ltp&gt</code> Essa frase pode ter uma citação longa como: <code>&ltblockquot&gt</code> <blockquote>“O perigo de verdade não é que computadores passem a pensar como humanos, mas, sim, que humanos passem a pensar como computadores”. — Sydney Harris</blockquote> <code>&lt/blockquot&gt</code> <code>&lt/p&gt</code>  </p>
+
+  <p> 4- <code>&ltq&gt</code>  - Essa tag indica uma citação curta. <br> 
+    
+    Exemplo do uso da tag:<code>&ltp&gt</code>  <code>&ltq&gt</code> <q> O ser humano é aquilo que a educação faz dele. - Immanuel Kant</q> <code>&lt/q&gt</code> <code>&lt/p&gt</code> </p>
+
+  <p> 5- <code>&ltcite&gt</code>  - Esa tag define a fonte de uma citação como nome do livro,autor, musica.<br> 
+    
+    Exemplo do uso da tag:<code>&ltp&gt</code> No livro "Marie Curie: uma vida dedicada à ciência", <code>&ltcite&gt</code> <cite> escritor Eduardo Alonso </cite> <code>&lt/cite&gt</code> <code>&lt/p&gt</code>  </p>
+                 
+
+    <p> - 6<code>&ltaddress&gt</code>  Indica informações de contato (autor, organização) <br> 
+    
+    Exemplo do uso da tag:<code>&ltp&gt</code> Vamos definir o contato de   <code>&ltaddress&gt</code> <address> "Informações do escritor" </address> <code>&lt/address&gt</code> <code>&lt/p&gt</code>  </p>
+
+    </p>
+
+    
+
+    
+
+
+
+
+  
+      <del>	Texto removido (ex: edição de conteúdo)
+      <ins>	Texto inserido (semântico para alterações em texto)
+      <sup> indica que o conteúdo é um valor elevado (como em expoentes ou notas de rodapé).
+      <sub> indica que o conteúdo é um valor inferior, usado frequentemente em fórmulas químicas ou matemáticas.
+      
+      
+                 
+              
+
+
+    
+  
+  </body>
 </html>
