@@ -41,9 +41,10 @@ a{
     width: 300px;
     border: 15px solid rgb(36, 94, 180);
     padding: 50px;
-    margin: 20px 0px 0px 451px;
+    margin: 30px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
     
 }
 
