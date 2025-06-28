@@ -1,12 +1,17 @@
 body {
     background-color: rgb(173, 213, 255);
+    background-image: url("/imagens/logoSerra.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50px;
+    background-attachment: fixed;
 }
 
-h1 {
-    background-color:aliceblue; 
+h1 { 
+    background-color:rgba(155, 190, 247, 0.295);
     color:black; 
     text-align: center; 
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .center {
@@ -18,10 +23,10 @@ h1 {
 }
 
 h2{
-    background-color:rgb(155, 191, 247); 
+    background-color:rgba(155, 190, 247, 0.295); 
     color:black; 
     text-align: center; 
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p{
@@ -36,8 +41,19 @@ a{
     font-family: courier
 }
 
-.boxmodel{
+.boxmodel1{
     background-color: rgb(1, 31, 58);
+    width: 300px;
+    border: 15px solid rgb(36, 94, 180);
+    padding: 50px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+}
+.boxmodel2{
+    background-image: url("/imagens/fundoimagem2.png");
     width: 300px;
     border: 15px solid rgb(36, 94, 180);
     padding: 50px;
