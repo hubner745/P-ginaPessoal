@@ -1,16 +1,16 @@
 .flex {
     display: flex;
     flex-direction: row;
-   
+    justify-content: space-between;
 }
 
 .box{
     text-align: center;
     background-color: rgb(36, 94, 180);
     border: 2px solid rgb(129, 169, 248); 
-    margin: 20px;
+    margin: 5px;
     padding: 15px;
-    width: 20em;
+    width: 30em;
     border-radius: 10px;
 
 }
@@ -21,7 +21,7 @@
 }
 
 .sbox {
-    background-color: #07468d;
+    background-color: #74a2d6;
     margin: 8px 0em;
     padding: 1px 0em;
 }
@@ -53,20 +53,20 @@ p {
 }
 
 footer {
-    background-color:rgb(255, 254, 252);
+    background-color:rgb(36, 94, 180);
     margin-top: 8px;
     padding: 1em;
     text-align: center;
 }
 
 body {
-    margin: 0%;
+    margin: 2px 15%;
     padding: 0%;
-    background-color: rgb(45, 74, 104);;
+    background-color: rgb(173, 213, 255);;
 }
 
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 address {
