@@ -9,32 +9,64 @@
         <link rel="stylesheet" href = "estilos/estilo.css">
         <link rel = "icon" href = "imagens/logoSerra.png">
     </head>
-    <body> 
-        <h1>Matheus Hubner Rodrigues</h1>
+    <body>
+        <header>
+            <h1>Matheus Hubner Rodrigues</h1>
+            <nav>
+                <a class="nava" href="#h1">Início</a>
+                <a class="nava" href="#section1">Sobre mim / Meus Interesses</a>
+                <a class="nava" href="#section2">Minha Instituição</a>
+                <a class="nava" href="#section3">Mais Informações e Conteúdos</a>
+            </nav>
+            <img src="/imagens/logoSerra.png" alt="Logo IFES">
+        </header>
 
-        <div class = "center"> <img class = "imagemAvatar" src="imagens/AvatarMaker.png" alt="imagem do avatar de Matheus" title="Meu Avatar" height="200px" width="200px"> </div>
+        <div class="layout">
+        <aside>
+            <nav class="nav-aside">
+                <a href="https://serra.ifes.edu.br/">Ifes</a>
+                <a href="tutorial/tutorial_tags.html">Tutorial</a>
+                <a href="curriculo/curriculo.html">Curriculo</a>
+            </nav>
+        </aside>
 
-        <h2>Sobre mim:</h2>
-        <div class="boxmodel1"> <p>Tenho 18 anos, moro em Serra, sou cristão e, atualemente, estou me formando no IFES Serra.</p> </div>
-        <h2>Meus interesses:</h2>
-        <div class="boxmodel2"> <p>Meu maior foco é passar no vestibular. De hobbys tenho: ver filmes, ler, sair com a família, etc.</p> </div>
-        
-        <h2>Minha Instituição</h2>
-        <a href="https://serra.ifes.edu.br/" target="_blank">
-            <div class="center"> <img src ="imagens/serra.png" alt="Meu Campus" title="Entrada do IFES Serra"></div>
-        </a>
+        <main>
+            <section id="section1">
+                <img src="imagens/AvatarMaker.png" alt="imagem do avatar de Matheus" title="Meu Avatar">
+                <div>
+                    <h2>Sobre mim:</h2>
+                    <p>Tenho 18 anos, moro em Serra, sou cristão e, atualemente, estou me formando no IFES Serra.</p>
+                    <h2>Meus interesses:</h2>
+                    <p>Meu maior foco é passar no vestibular. De hobbys tenho: ver filmes, ler, sair com a família, etc.</p>
+                </div>
+            </section>
+            
+            <section id="section2">
+                <h2>Minha Instituição</h2>
+                <a href="https://serra.ifes.edu.br/" target="_blank">
+                    <div class="center"> <img src ="imagens/serra.png" alt="Meu Campus" title="Entrada do IFES Serra"></div>
+                </a>
+            </section>
 
-        <h2>Mais Informações e Conteúdos</h2>
+            <section id="section3">
+                <h2>Mais Informações e Conteúdos</h2>
+                <br>
 
-        <br>
+                <div> <a href="tutorial/tutorial_tags.html"> Clique aqui para acessar o Tutorial: Tags Semânticas e Estruturais </a> </div>
+                <br>
+                <div> <a href="curriculo/curriculo.html"> Clique aqui para acessar o meu Currículo </a> </div>
+                <br>
+                <br>
 
-        <div class = "center"> <a href="tutorial/tutorial_tags.html"> Clique aqui para acessar o Tutorial: Tags Semânticas e Estruturais </a> </div>
-        <br>
-        <div class = "center"> <a href="curriculo/curriculo.html"> Clique aqui para acessar o meu Currículo </a> </div>
-        <br>
-        <br>
+                <div> <img src="imagens/logoSerra.png" alt="logotipo do IFES" title="Logotipo do IFES" height="300px" width="300px"> </div>
 
-        <div class = "center"> <img src="imagens/logoSerra.png" alt="logotipo do IFES" title="Logotipo do IFES" height="300px" width="300px"> </div>
+            </section>
+        </main>
+        </div>
+
+        <footer>
+            <p>&copy;2025 Matheus Hubner Rodrigues. Todos os Direitos Reservados - Orientação: Prof. Jonathan Toczek</p> 
+        </footer>
 
 
     </body>
